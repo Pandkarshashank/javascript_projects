@@ -1,0 +1,55 @@
+.mainbody{
+    border-radius: 20px;
+    background-color: white;
+    width: 70%;
+    height: 500%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover{
+    color: aqua;
+}
+.navbar ul{
+    list-style: none ;
+    display: flex;
+    gap: 30px;
+}
+.navbar li{
+    font-size: 20px;
+}
+.navbar img{
+    width: 60px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 30px;
+}
+.form{
+    text-align: center;
+}
+.form div{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.logos{
+    padding-left: 25rem;
+}
+.about ul{
+    list-style: none;
+    display: flex;
+}
+.about li img{
+    width: 50px;
+}

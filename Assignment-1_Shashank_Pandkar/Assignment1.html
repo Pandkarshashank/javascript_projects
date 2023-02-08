@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Assignment-1</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Hammersmith One' rel='stylesheet'>
+        <style>
+            body {
+                font-family: 'Hammersmith One';font-size: 22px;
+                margin: auto;
+            }
+            input{
+                padding: 5px 10px 5px 10px;
+                border-radius: 10px;
+                background-color: #ddeaf7;
+            }       
+            </style>
+    </head>
+    <body style="background-image:linear-gradient(#06aed5,#086788);display:grid; grid-template-columns:1fr 1fr;">
+        <img src="food-1050813_960_720.jpg" alt="Image" style="height: 47rem;">
+        <center><p style="color: #f2f4f3; font-style: italic; font-size: 70px;">Menu Form</p>
+        <form>
+            <div style="font-size:20px;color:#f2f4f3;display: grid;grid-template-columns:1fr 1fr;width: fit-content;padding-bottom: 30px;">
+                <div style="text-align: left;">
+                    <label for="Email" >Email: </label><br>
+                    <label for="Address">Address:</label><br>
+                    <label for="Phone">Phone: </label><br>
+                </div>
+                <div>
+                    <input placeholder="Enter Your Email" id="Email" type="email"><br>
+                    <input placeholder="Enter Your Address" id="Address" type="text"><br>
+                    <input placeholder="Enter Your Phone" id="Phone" type="phone"><br>
+                </div>
+            </div>
+            <input type="date" id="Calendar"><br><br>
+            <label for="Choose order" style="font-size:25px;color:#f2f4f3;padding-bottom: 20px;">Choose Order</label><br>
+            <select id="Choose order" style="font-size:20px;border-radius: 10px;padding: 2px 7px 2px 7px;background-color: #ddeaf7 ;">
+                <option value="Pizza">Pizza</option>
+                <option value="Burger">Burger</option>
+                <option value="French Fries">French Fries</option>
+                <option value="Coke">Coke</option>
+                <option value="Hotdog">Hotdog</option>
+                <option value="Lemonade">Lemonade</option>
+            </select><br><br>
+            <div style="font-size:20px;color:#f2f4f3">
+                <input type="checkbox" id="Toppings" value="Toppings">
+                <label for="Toppings"> Extra Toppings  </label>
+                <input type="checkbox" id="Cheese"  value="Cheese">
+                <label for="Cheese"> Extra Cheese  </label>
+                <input type="checkbox" id="Dipping" value="Dipping">
+                <label for="Dipping"> Extra Dipping  </label><br>
+            </div><br><br>
+            <button style="padding:5px 15px 5px 15px; font-size:20px;border-radius: 10px; background-color:#f0c808; color: #f2f4f3;border-color: aliceblue;">Sumbit</button><br>
+        </form></center>
+    </body>
+</html>

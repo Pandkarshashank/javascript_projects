@@ -1,0 +1,130 @@
+body{
+    background-image: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px 500px;
+    background-color: #000;
+}
+.mainbody{
+    border-radius: 20px;
+    background-color: white;
+    width: 70%;
+    height: 500%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+    padding: 30px;
+}
+.container{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    border-style: solid;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    gap: 30px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover{
+    color: aqua;
+}
+.navbar ul{
+    list-style: none ;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.navbar li{
+    font-size: 20px;
+}
+.navbar img{
+    width: 60px;
+    
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 30px;
+}
+.form{
+    text-align: center;
+}
+.form div{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.Homepage img{
+    width: 100%;
+    height: 250px;
+}
+.features{
+    width: 200px;
+    height: 400px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 20px;
+}
+.features ul{
+    list-style: none;
+    text-align: left;
+}
+.features li{
+    padding-top: 10px;
+}
+.card img{
+    gap: 30px;
+    width: 400px;
+    border-radius: 10%;
+}
+.card{
+    display: flex;
+    padding: 10px;
+    gap: 100px;
+}
+.card .content{
+    display: inline;
+}
+.card .content p{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 780px) {
+    .Homepage img {
+        display: none;
+    }
+    .features{
+        display: none;
+    }
+    form{
+        display: none;
+    }
+    .form h1{
+        display: none;
+    }
+    .container{
+        padding: 5px;
+    }
+    .card img{
+        display: none;
+    }
+    .card .content{
+        font-size: larger;
+    }
+    .card .content h1{
+        font-size: 30px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:1080px) {
+    .card img{
+        width: 30%;
+    }
+}
